@@ -70,9 +70,9 @@ header{}
 #content{ height:636px; padding-bottom:64px;}
 #content > ul > li{ position:relative; left:225px; top:27px; width:100%;}
 
-.bg_cont{ position:absolute; top:0; left:0; z-index:1}
+.bg_cont{ position:absolute; top:0; left:0; z-index:1;width: 0;height: 0;overflow: hidden;}
 
-.pad{ position:relative; z-index:2; left:94px; top:110px; width:388px; height:430px; font-size: 16px; line-height: 32px;}
+.pad{ position:relative; z-index:2; left:94px; top:110px; width:388px; height:430px; font-size: 16px; line-height: 32px;opacity: 0}
 
 .link1{ position:relative;}
 .link1 span{ position: absolute; bottom:0; left:0; width:0; height:1px;}
