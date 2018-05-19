@@ -698,7 +698,7 @@ body,button {
 }
 
 .page-1 {
-    background: #fff url(../img/iali53.jpg) bottom right no-repeat;
+    background: #fff url(../images/iali53.jpg) bottom right no-repeat;
     text-align: left
 }
 
@@ -824,7 +824,7 @@ body,button {
 }
 
 .page-10 {
-    background: url(../img/iali22_bg.jpg)
+    background: url(../images/iali22_bg.jpg)
 }
 
 .page-12 {
@@ -863,7 +863,7 @@ body,button {
 }
 
 .page-15 {
-    background: #dcf2fa url(../img/iali45_bg.jpg)
+    background: #dcf2fa url(../images/iali45_bg.jpg)
 }
 
 .page-16 {
@@ -875,7 +875,7 @@ body,button {
 }
 
 .page-19 {
-    background-image: url(../img/iali75_bg.jpg)
+    background-image: url(../images/iali75_bg.jpg)
 }
 
 .page-19 h3 {
@@ -899,7 +899,7 @@ body,button {
 }
 
 .page-21 {
-    background: #fbf2a3 url(../img/iali59_bg.jpg)
+    background: #fbf2a3 url(../images/iali59_bg.jpg)
 }
 
 .page-22 {
@@ -931,7 +931,7 @@ body,button {
 }
 
 .page-28 {
-    background: #b7e7f3 url(../img/iali40_bg.jpg) bottom repeat-x;
+    background: #b7e7f3 url(../images/iali40_bg.jpg) bottom repeat-x;
     padding: 0
 }
 
@@ -963,7 +963,7 @@ body,button {
 }
 
 .page-30 {
-    background: #fff url(../img/iali76_bg.png) center bottom repeat-x;
+    background: #fff url(../images/iali76_bg.png) center bottom repeat-x;
     padding: 0;
     padding: 0
 }
@@ -993,7 +993,7 @@ body,button {
 }
 
 .page-34 {
-    background: #94c2e3 url(../img/iali57.jpg) left bottom no-repeat
+    background: #94c2e3 url(../images/iali57.jpg) left bottom no-repeat
 }
 
 .page-34 h3 {
@@ -1001,7 +1001,7 @@ body,button {
 }
 
 .page-35 {
-    background: #fff url(../img/iali8_bg.png) left bottom repeat-x;
+    background: #fff url(../images/iali8_bg.png) left bottom repeat-x;
     padding: 0
 }
 
@@ -1036,7 +1036,7 @@ body,button {
 }
 
 .page-39 {
-    background: #e8ccc1 url(../img/iali2_bg.jpg) repeat
+    background: #e8ccc1 url(../images/iali2_bg.jpg) repeat
 }
 
 .page-40 {
@@ -1201,7 +1201,7 @@ body,button {
 }
 
 .page-51 {
-    background-image: url(../img/iali52.jpg);
+    background-image: url(../images/iali52.jpg);
     background-size: cover;
     background-color: #fff;
     text-align: left
@@ -1224,11 +1224,11 @@ body,button {
 }
 
 .page-54 {
-    background: #d3d2d0 url(../img/319280_bg.jpg) repeat
+    background: #d3d2d0 url(../images/319280_bg.jpg) repeat
 }
 
 .page-54 .center-img {
-    background-image: url(../img/319280.jpg);
+    background-image: url(../images/319280.jpg);
     text-indent: -99999px
 }
 
