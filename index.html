@@ -142,7 +142,12 @@ oncut="return false;" >
 </head>
 
 <body onLoad="checkhtml5()">
-    <a href="html/lovePage.html">页面</a>
+    <a href="html/lovePage.html" style="background: url('images/xin.png') no-repeat;height: 160px; width: 200px; background-size: 200px 160px; position: absolute; top: 40%;left: 7% ;display:flex;align-items: center; cursor: pointer;z-index: 99999999" >
+        <span style="font-size: 40px ;margin-left:28%; color: #e79d9d">表白</span>
+    </a>
+    <a href="html/lovePage2.html" style="background: url('images/xin.png') no-repeat;height: 160px; width: 200px; background-size: 200px 160px; position: absolute; top: 40%;right: 7% ;display:flex;align-items: center; cursor: pointer;z-index: 99999999" >
+        <span style="font-size: 40px ;margin-left:18%; color: #e79d9d">爱情树</span>
+    </a>
 <div id="abox">
 </div>
 <div class="page_spinner">
@@ -334,6 +339,7 @@ oncut="return false;" >
 			</article>
 			<!--content end-->
   </div>
+  <audio id="bgmMusic" src="music/陶喆-爱很简单.mp3" preload="auto" type="audio/mp3" autoplay="" loop=""></audio>
 </div>
 	<div class="bg1">	
 		<div class="main">
@@ -367,7 +373,7 @@ $(window).load(function() {
     var offsetY = $("#loveHeart").height() / 2 - 55;
     var together = new Date();
     together.setFullYear(2016, 5, 1);
-    together.setHours(17);
+    together.setHours(0);
     together.setMinutes(0);
     together.setSeconds(0);
     together.setMilliseconds(0);
@@ -385,7 +391,8 @@ $(window).load(function() {
         adjustCodePosition();
         $("#code").typewriter();
 </script>
-  <audio id="bgmMusic" src="music/陶喆-爱很简单.mp3" preload="auto" type="audio/mp3" autoplay="" loop=""></audio>
+    <audio id="bgmMusic" src="http://www.51mp3ring.com/51mp3ring_com2/at200611121582079026.mp3" preload="auto" type="audio/mp3" autoplay loop></audio>
+
 <!--coded by koma-->
 
 <!--LIVEDEMO_00 -->
