@@ -43,6 +43,9 @@ document.oncontextmenu=stop;
 </script>
 <body onselectstart="return false" onpaste="return false" oncopy="return false;" 
 oncut="return false;" >
+<audio id="bgmMusic"  preload="auto"  autoplay loop>
+  <source src="music/陶喆-爱很简单.mp3" type="audio/ogg" />
+</audio>
 </a>
     <script>
 	
@@ -139,14 +142,48 @@ oncut="return false;" >
             right: 15px;
             z-index: 99999999;
         }
+       @keyframes rotate{            
+            0% {
+                transform:scale(1);
+                 opacity:1;
+            }
+            15% {
+                transform:scale(1.2);
+                 opacity:0.8;
+            }
+            30% {
+                transform:scale(.9);
+                 opacity:1;
+            }
+            45% {
+                transform:scale(1.2);
+                 opacity:0.8;
+            }
+            60% {
+                transform:scale(1.1);
+                 opacity:0.6;
+            }
+            75% {
+                transform:scale(1.2);
+                 opacity:0.8;
+            }
+            90% {
+                transform:scale(.9);
+                 opacity:0.9;
+            }
+            100%{
+                transform:scale(1);
+                 opacity:1.2;
+            }
+        }
     </style>
 </head>
 
 <body onLoad="checkhtml5()">
-    <a href="html/lovePage.html" style="background: url('images/xin.png') no-repeat;height: 160px; width: 200px; background-size: 200px 160px; position: absolute; top: 40%;left: 7% ;display:flex;align-items: center; cursor: pointer;z-index: 99999999" >
+    <a href="html/lovePage.html" style=" animation:rotate 1.6s linear 0s infinite normal running;background: url('images/xin.png') no-repeat;height: 160px; width: 200px; background-size: 200px 160px; position: absolute; top: 40%;left: 7% ;display:flex;align-items: center; cursor: pointer;z-index: 99999999" >
         <span style="font-size: 40px ;margin-left:28%; color: #e79d9d">表白</span>
     </a>
-    <a href="html/lovePage2.html" style="background: url('images/xin.png') no-repeat;height: 160px; width: 200px; background-size: 200px 160px; position: absolute; top: 40%;right: 7% ;display:flex;align-items: center; cursor: pointer;z-index: 99999999" >
+    <a href="html/lovePage2.html" style="animation:rotate 1.6s linear 0s infinite normal running; background: url('images/xin.png') no-repeat;height: 160px; width: 200px; background-size: 200px 160px; position: absolute; top: 40%;right: 7% ;display:flex;align-items: center; cursor: pointer;z-index: 99999999" >
         <span style="font-size: 40px ;margin-left:18%; color: #e79d9d">爱情树</span>
     </a>
 <div id="abox">
@@ -364,7 +401,6 @@ href="" target=_blank></a> <script
 $(window).load(function() {	
 	$('.page_spinner').fadeOut();
 	$('body').css({overflow:'visible'});
-	
 })
 </script>
 
@@ -391,7 +427,7 @@ $(window).load(function() {
         adjustCodePosition();
         $("#code").typewriter();
 </script>
-  	<audio id="bgmMusic" src="music/陶喆-爱很简单.mp3" preload="auto" type="audio/mp3" autoplay="" loop=""></audio>
+  	
 <!--coded by koma-->
 
 <!--LIVEDEMO_00 -->
